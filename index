@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>爆裂れもん 歌枠アーカイブ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="./scripts.js" defer></script>
+</head>
+<body>
+  <header>
+<div id="header-container">
+  <div id="title-wrap">
+    <h1 id="gradient-title">爆裂れもん 歌枠アーカイブ</h1>
+  </div>
+  <div id="header-controls">
+    <div id="subscribe-button">
+      <script src="https://apis.google.com/js/platform.js"></script>
+      <div class="g-ytsubscribe" data-channelid="UCxqEJKeM-mTi8TX_kIpRT7g" data-layout="full"></div>
+    </div>
+    <div id="songlist-link">
+      <a href="https://youtube.com/playlist?list=PLZqnLksa6kaOkGVkgUBJdEiAxxfDnJlld" target="_blank">
+        爆裂れもん 歌枠リスト
+      </a>
+    </div>
+  </div>
+</div>
+  </header>
+
+  <div id="random-controls">
+    <p class="random-description">すべての動画・楽曲からランダム再生</p>
+    <button id="global-random-button">オールランダム再生</button>
+
+    <p class="random-description">メンバー限定を含まないランダム再生</p>
+    <button id="non-members-random-button">非メンバーオールランダム再生</button>
+  </div>
+
+  <div id="selection-container">
+    <div id="video-selection">
+      <label for="video-select">動画を選択: ※はメンバー限定動画</label>
+      <select id="video-select">
+        <option value="">好きな歌枠を選択してくれ！</option>
+      </select>
+      <div class="random-button-container">
+        <p class="random-description">動画内からランダム再生</p>
+        <button id="random-play-button">ランダム再生</button>
+      </div>
+    </div>
+
+    <div id="timestamp-selection">
+      <label for="timestamp-select">楽曲を選択:</label>
+      <select id="timestamp-select">
+        <option value="">歌枠を選んだら曲も選んでくれよな！</option>
+      </select>
+      <div class="play-button-container">
+        <button id="play-button">楽曲を再生</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="songlist-selection">
+    <label for="songlist-list">楽曲一覧から選択: ※はメンバー限定の楽曲</label>
+    <ul id="songlist-list"></ul>
+    <div class="songlist-play-button-container">
+      <button id="songlist-play-button">この楽曲を再生</button>
+    </div>
+  </div>
+</body>
+</html>

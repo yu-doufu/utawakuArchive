@@ -1,0 +1,216 @@
+/* =====================
+   全体スタイル
+===================== */
+body {
+  font-family: 'Quicksand', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f2dc;
+  background-image: radial-gradient(circle, #ffe5b4 3px, transparent 3px);
+  background-size: 30px 30px;
+  color: #333;
+  text-align: center;
+}
+
+/* =====================
+   ヘッダー構造
+===================== */
+header {
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* タイトル中央固定 */
+#title-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#gradient-title {
+  font-size: 40px;
+  background: linear-gradient(to right, #ff0000, #ffff00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* 登録ボタンとリストボタンの右寄せ縦並び */
+#header-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+#subscribe-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* 歌枠リストボタン */
+#songlist-link a {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffa726;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+#songlist-link a:hover {
+  background-color: #ef5350;
+  transform: scale(1.1);
+}
+
+/* =====================
+   ランダム再生
+===================== */
+#random-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 5px;
+}
+
+.random-description {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#global-random-button, #non-members-random-button {
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff5722;
+  color: white;
+  transition: transform 0.2s;
+}
+
+#global-random-button:hover, #non-members-random-button:hover {
+  background-color: #d84315;
+  transform: scale(1.1);
+}
+
+/* =====================
+   選択セクション
+===================== */
+#selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+#video-selection, #timestamp-selection {
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+select {
+  padding: 12px;
+  font-size: 18px;
+  width: 650px;
+  border-radius: 10px;
+  border: 3px solid #c8b5a4;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+  text-indent: 0.5em;
+}
+
+/* =====================
+   再生ボタン群
+===================== */
+#play-button, #random-play-button, #songlist-play-button {
+  padding: 14px 28px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ff5722;
+  color: white;
+  transition: transform 0.2s;
+}
+
+#play-button {
+  margin-top: 30px; /* ← ここで被りを回避 */
+}
+
+#play-button:hover, #random-play-button:hover, #songlist-play-button:hover {
+  background-color: #d84315;
+  transform: scale(1.1);
+}
+
+/* =====================
+   楽曲リスト
+===================== */
+#songlist-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+#songlist-list {
+  width: 700px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 12px;
+  border: 3px solid #c8b5a4;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin: 0;
+}
+
+#songlist-list li {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background-color: #fff5eb;
+  border: 1px solid #e0c3a0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: left;
+}
+
+#songlist-list li:hover {
+  background-color: #ffe0b2;
+}

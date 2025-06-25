@@ -1,4 +1,16 @@
 [
+{
+  "videoId": "LeU4uCzeCfQ",
+  "videoName": "【歌ってみた】ラヴィ(Lavie)【爆裂れもん】",
+  "timestamps": [
+    {
+      "start": "0",
+      "title": "ラヴィ",
+      "artist": "",
+      "url": "https://www.youtube.com/watch?v=LeU4uCzeCfQ&t=0s"
+    }
+  ]
+},
   {
     "videoId": "T7CYthEK67Y",
     "videoName": "【歌枠】生歌最強新人VTuberの初歌配信！【爆裂れもん】",
@@ -538,5 +550,42 @@
   {"start":"23514","title":"DAN DAN 心惹かれてく -by ZARD / FIELD OF VIEW（ドラゴンボールGT）","artist":"","url":"https://www.youtube.com/watch?v=L35K7d9wMVM&t=23514s"},
   {"start":"23888","title":"にんげんっていいな / まんが日本昔ばなし","artist":"","url":"https://www.youtube.com/watch?v=L35K7d9wMVM&t=23888s"}
     ]
-  }   
+  },
+{
+  "videoId": "YJZZf7IBbbY",
+  "videoName": "【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+  "membershipOnly": true,
+  "timestamps": [
+    { "start": "4273", "title": "清楚なオープニング", "artist": "", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=4273s" },
+    { "start": "4739", "title": "くたばれPTA", "artist": "梨本うい（初音ミク）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=4739s" },
+    { "start": "8664", "title": "ペテン師が笑う頃に", "artist": "梨本うい（初音ミク）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=8664s" },
+    { "start": "14258", "title": "くるみ☆ぽんちお", "artist": "まだ仔（初音ミク）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=14258s" },
+    { "start": "19376", "title": "JIKU~未来戦隊タイムレンジャー~", "artist": "佐々木久美（未来戦隊タイムレンジャー）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=19376s" },
+    { "start": "23200", "title": "エルの絵本【笛吹き男とパレード】", "artist": "Sound Horizon（Elysion～楽園幻想物語組曲～）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=23200s" },
+    { "start": "28700", "title": "Sexy Sexy,", "artist": "CASCADE（学校の怪談）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=28700s" },
+    { "start": "32401", "title": "Shuffle", "artist": "奥井雅美（遊☆戯☆王デュエルモンスターズ）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=32401s" },
+    { "start": "37466", "title": "MASK", "artist": "奥井雅美（爆れつハンター）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=37466s" },
+    { "start": "39738", "title": "空", "artist": "音無小鳥（アイドルマスター）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=39738s" },
+    { "start": "43994", "title": "隣に...", "artist": "三浦あずさ（アイドルマスター）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=43994s" },
+    { "start": "48006", "title": "キラメキラリ", "artist": "高槻やよい（アイドルマスター）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=48006s" },
+    { "start": "52531", "title": "よっしゃあ漢唄", "artist": "角田信朗（CR花の慶次〜斬）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=52531s" },
+    { "start": "55111", "title": "恋のメガラバ", "artist": "マキシマム ザ ホルモン", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=55111s" },
+    { "start": "57601", "title": "俺ら東京さ行ぐだ", "artist": "吉幾三", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=57601s" },
+    { "start": "60011", "title": "true my heart", "artist": "ave;new feat.佐倉紗織（ナーサリィ☆ライム）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=60011s" },
+    { "start": "65736", "title": "さくらんぼキッス 〜爆発だも〜ん〜", "artist": "KOTOKO（カラフルキッス 〜12コの胸キュン!〜）", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=65736s" },
+    { "start": "69239", "title": "組曲『ニコニコ動画』", "artist": "ニコニコ動画", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=69239s" },
+    { "start": "79156", "title": "ここからお絵かき枠です", "artist": "", "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=79156s" }
+  ]
+},
+{
+  "videoId": "DuQjo74sR3Q",
+  "videoName": "【１周年記念配信！】振り返り＆マシュマロ雑談～１年間ありがとう～【爆裂れもん】",
+  "timestamps": [
+    { "start": "9388", "title": "夢みたあとで", "artist": "GARNET CROW", "url": "https://www.youtube.com/watch?v=DuQjo74sR3Q&t=9388s" },
+    { "start": "9796", "title": "夏の幻", "artist": "GARNET CROW", "url": "https://www.youtube.com/watch?v=DuQjo74sR3Q&t=9796s" },
+    { "start": "10483", "title": "secret base〜君がくれたもの〜", "artist": "ZONE", "url": "https://www.youtube.com/watch?v=DuQjo74sR3Q&t=10483s" },
+    { "start": "10772", "title": "U&I", "artist": "放課後ティータイム", "url": "https://www.youtube.com/watch?v=DuQjo74sR3Q&t=10772s" },
+    { "start": "11228", "title": "ガーネット", "artist": "奥華子", "url": "https://www.youtube.com/watch?v=DuQjo74sR3Q&t=11228s" }
+  ]
+}
 ]

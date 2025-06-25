@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     timestampSelect.innerHTML = '<option value="">歌枠を選んだら曲も選んでくれよな！</option>';
   }
 
-  // 🔠 文字種分類（ひらがな→カタカナ→漢字→アルファベット）
+  // 🔠 文字種分類（ひらがな→カタカナ→漢字→アルファベット→その他）
   function getCharGroup(ch) {
     if (/^[ぁ-ん]/.test(ch)) return "1";
     if (/^[ァ-ヶー]/.test(ch)) return "2";
@@ -93,14 +93,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!res.ok) throw new Error(`songs.json error: ${res.status}`);
     const rawSongs = await res.json();
 
-    songs = rawSongs.map(({ label, url }) => {
+    songs = rawSongs.map(({ label, url, furigana }) => {
       const [titleRaw, rest] = label.split(" / ");
       const title = titleRaw.replace(/^※/, "");
       const firstChar = title.charAt(0);
       const group = getCharGroup(firstChar);
       const highlight = `<span style="color: red;">${titleRaw}</span> / ${rest}`;
-      const sortKey = title.normalize("NFKC").replace(/[ァ-ン]/g, s =>
-        String.fromCharCode(s.charCodeAt(0) - 0x60)).toLowerCase().replace(/[^ぁ-んa-z0-9]/g, "");
+      const base = group === "3" && typeof furigana === "string" ? furigana : title;
+      const sortKey = base.normalize("NFKC")
+        .replace(/[ァ-ン]/g, s => String.fromCharCode(s.charCodeAt(0) - 0x60))
+        .toLowerCase()
+        .replace(/[^ぁ-んa-z0-9]/g, "");
       return { label: highlight, url, sortKey, group };
     }).sort((a, b) => {
       if (a.group !== b.group) return a.group.localeCompare(b.group);

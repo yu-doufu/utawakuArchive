@@ -1716,79 +1716,81 @@
     "label": "にんげんっていいな / 【#歌枠/karaoke】登録1200人！高評価50人耐久！生歌最強ヤンキーVTuber歌枠【爆裂れもん】",
     "url": "https://www.youtube.com/watch?v=L35K7d9wMVM&t=23888s"
   },
-{
-  "label": "※くたばれPTA  / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=4739s"
-},
-{
-  "label": "※ペテン師が笑う頃に / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=8664s"
-},
-{
-  "label": "※くるみ☆ぽんちお / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=14258s"
-},
-{
-  "label": "※JIKU~未来戦隊タイムレンジャー~ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=19376s"
-},
-{
-  "label": "※エルの絵本【笛吹き男とパレード】 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=23200s"
-},
-{
-  "label": "※Sexy Sexy, / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=28700s"
-},
-{
-  "label": "※Shuffle / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=32401s"
-},
-{
-  "label": "※MASK / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=37466s"
-},
-{
-  "label": "※空 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "furigana": "そら",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=39738s"
-},
-{
-  "label": "※隣に... / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "furigana": "となりに",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=43994s"
-},
-{
-  "label": "※キラメキラリ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=48006s"
-},
-{
-  "label": "※よっしゃあ漢唄 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=52531s"
-},
-{
-  "label": "※恋のメガラバ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "furigana": "こいのめがらば",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=55111s"
-},
-{
-  "label": "※俺ら東京さ行ぐだ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "furigana": "おれらとうきょうさいぐだ",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=57601s"
-},
-{
-  "label": "※true my heart / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=60011s"
-},
-{
-  "label": "※さくらんぼキッス 〜爆発だも〜ん〜 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=65736s"
-},
-{
-  "label": "※組曲『ニコニコ動画』 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
-  "furigana": "くみきょくにこにこどうが",
-  "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=69239s"
-},
+[
+  {
+    "label": "※くたばれPTA / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=179s"
+  },
+  {
+    "label": "※ペテン師が笑う頃に / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=864s"
+  },
+  {
+    "label": "※くるみ☆ぽんちお / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=1418s"
+  },
+  {
+    "label": "※JIKU~未来戦隊タイムレンジャー~ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=1936s"
+  },
+  {
+    "label": "※エルの絵本【笛吹き男とパレード】 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=2320s"
+  },
+  {
+    "label": "※Sexy Sexy, / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=2870s"
+  },
+  {
+    "label": "※Shuffle / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=3241s"
+  },
+  {
+    "label": "※MASK / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=3746s"
+  },
+  {
+    "label": "※空 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "furigana": "そら",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=3978s"
+  },
+  {
+    "label": "※隣に... / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "furigana": "となりに",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=4399s"
+  },
+  {
+    "label": "※キラメキラリ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=4806s"
+  },
+  {
+    "label": "※よっしゃあ漢唄 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=5251s"
+  },
+  {
+    "label": "※恋のメガラバ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "furigana": "こいのめがらば",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=5511s"
+  },
+  {
+    "label": "※俺ら東京さ行ぐだ / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "furigana": "おらとうきょうさゆぐだ",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=5761s"
+  },
+  {
+    "label": "※true my heart / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=6011s"
+  },
+  {
+    "label": "※さくらんぼキッス 〜爆発だも〜ん〜 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=6576s"
+  },
+  {
+    "label": "※組曲『ニコニコ動画』 / 【メン限】歌＆お絵描き欲張りセット！【爆裂れもん】",
+    "furigana": "くみきょくニコニコどうが",
+    "url": "https://www.youtube.com/watch?v=YJZZf7IBbbY&t=6939s"
+  }
+],
 {
   "label": "夢みたあとで / 【１周年記念配信！】振り返り＆マシュマロ雑談～１年間ありがとう～【爆裂れもん】",
   "furigana": "ゆめみたあとで",
